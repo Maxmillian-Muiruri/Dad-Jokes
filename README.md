@@ -25,7 +25,7 @@ getElementById("container");
 
 ### example:
 
-```
+```js
 document.getElementById("Main")
  WRONG
 
@@ -57,8 +57,8 @@ RIGHT
 
 ## example
 
-```
-function myFuction(parameter1,parameter2) {
+```js
+function myFuction(parameter1, parameter2) {
   return p1 * p2;
 }
 ```
@@ -75,11 +75,12 @@ function myFuction(parameter1,parameter2) {
 
 ### Calculate the product of two numbers, and return the result:
 
-```
+```js
 let x = myFunction(4, 3);   // Function is called, return value will end up in x
 
 function myFunction(a, b) {
-  return a * b;             // Function returns the product of a and b
+  return a * b;
+  }            // Function returns the product of a and b
 
   The result in x will be: 12
 ```
@@ -206,17 +207,17 @@ function myFunction(name) {
 ## Example
 
 ```js
-public class Main {
-  public static void main(String[ ] args) {
+function test {
+
     try {
-      int[] myNumbers = {1, 2, 3};
-      System.out.println(myNumbers[10]);
-    } catch (Exception e) {
-      System.out.println("Something went wrong.");
+      const name = "user";
+      name = "newUser";
+    } catch ( e) {
+      console.log("Something went wrong.");
     }
-  }
+
 }
 
 ```
 
-## the out put will be `something went wrong. `
+## the output will be `something went wrong.` since we tried reassigning a constant
